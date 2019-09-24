@@ -1,9 +1,39 @@
-#train-table th,
-td {
+.jumbotron {
+    margin: 10px auto;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 6vw;
+    font-family: 'Rock Salt', cursive;
+}
+
+h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3vw;
+}
+
+#train-table th, td {
     display: inline-block;
     width: 25%;
+    color: red;
+    font-size: 1.5vw;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+}
+
+td {
+    font-size: 1vw;
+    color: lightblue;
+    font-weight: 100;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .input {
     width: 100%;
-} 
+}
+
+td:hover {
+    background-color: rgba(246, 207, 0, .9);
+    color: darkblue;
+}
